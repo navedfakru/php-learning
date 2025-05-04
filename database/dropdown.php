@@ -16,7 +16,17 @@
 
 <body>
   <?php
-
+  include("./config.php");
+  $getStudent=$conn->prepare("select id, name from students");
+  $getStudent->execute();
+  $studentData=$getStudent->fetchAll();
+  echo "<select>
+    <option>Select Name</option>
+  ";
+  foreach($studentData as $student):
+  echo "<option value=".$student['id'].">".$student['name']."</option>";
+  endforeach;
+  echo "</select>";
   ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>

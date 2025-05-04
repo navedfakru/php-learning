@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fomr headling with php</title>
+</head>
+<body>
+  <form action="./form.php" method="post">
+    <input type="text" name="name" placeholder="enter user name"><br><br>
+    <input type="email" name="email" placeholder="enter user email"><br><br>
+    <input type="password" name="password" placeholder="enter user password"><br><br>
+    <input type="checkbox" name="skills[]" value="php"><span>PHP</span><br>
+    <input type="checkbox" name="skills[]" value="java"><span>Java</span><br>
+    <input type="checkbox" name="skills[]" value="Cpp"><span>Cpp</span><br>
+    <input type="checkbox" name="skills[]" value="javaScript"><span>javaScript</span><br>
+    <input type="radio" name="gender" id=""><span>Male</span>
+    <input type="radio" name="gender" id=""><span>Female</span>
+    <br>
+    <select name="city" id="">
+      <option value="noida">noida</option>
+      <option value="delhi">delhi</option>
+      <option value="gurgaon">gurgaon</option>
+    </select>
+    <br>
+    <br>
+    <textarea name="bio" id="">
+
+    </textarea><br><br>
+    <button>Sign up</button>
+  </form>
+</body>
+</html>
