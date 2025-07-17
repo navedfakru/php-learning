@@ -42,6 +42,22 @@
 | **OOP**           | [class_object.php](oop/class_object.php) |
 | **OOP**           | [constructor.php](oop/constructor.php) |
 | **OOP**           | [properties.php](oop/properties.php)  |
+| **OOP**           | [accesModifiers.php](oop/accesModifiers.php)  |
+| **OOP**           | [methodoveriding.php](oop/methodoveriding.php)  |
+| **OOP**           | [constant.php](oop/constant.php)  |
+| **OOP**           | [final.php](oop/final.php)  |
+| **OOP**           | [staticMethodPropety.php](oop/staticMethodPropety.php)  |
+| **OOP**           | [lateStaticBinding.php](oop/lateStaticBinding.php)  |
+| **OOP**           | [abstractClass.php](oop/abstractClass.php)  |
+| **OOP**           | [interface.php](oop/interface.php)  |
+| **OOP**           | [trait.php](oop/trait.php)  |
+| **OOP**           | [typeHInting.php](oop/typeHInting.php)  |
+| **OOP**           | [methodChaning.php](oop/methodChaning.php)  |
+| **OOP**           | [methodOverridingTraits.php](oop/methodOverridingTraits.php)  |
+| **OOP**           | [form_handling_oops.php](oop/form_handling_oops.php)  |
+| **OOP/namespace**           | [namespace/management.php](oop/namespace/management.php)  |
+| **OOP/namespace**           | [namespace/student.php](oop/namespace/student.php)  |
+| **OOP/namespace**           | [namespace/teacher.php](oop/namespace/teacher.php)  |
 
 ### Database
 
@@ -58,6 +74,8 @@
 | **Database**      | [read.php](database/read.php)         |
 | **Database**      | [search.php](database/search.php)     |
 | **Database**      | [update.php](database/update.php)     |
+| **Database/oop**      | [oop/config.php](database/oop/config.php)     |
+| **Database/oop**      | [oop/student.php](database/oop/student.php)     |
 
 
 ### PHP Forms
@@ -79,17 +97,3 @@
 | **PHP Forms**     | [session-with-input.php](php_forms/session-with-input.php) |
 | **PHP Forms**     | [super-global.php](php_forms/super-global.php) |
 | **PHP Forms**     | [write-file.php](php_forms/write-file.php) |
-
-<style>
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  table, th, td {
-    border: 1px solid black;
-  }
-  th, td {
-    padding: 8px;
-    text-align: left;
-  }
-</style>
